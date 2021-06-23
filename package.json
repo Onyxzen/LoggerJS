@@ -1,6 +1,6 @@
 {
   "name": "@onyxzen/loggerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JavaScript logger",
   "main": "src/index.js",
   "private": false,

@@ -50,6 +50,22 @@ export function warn(messsage) {
 }
 
 /**
+ * @param {string} messsage
+ * The string to log
+ * 
+ * @returns {void}
+ * Return `void`
+ * 
+ * @example
+ * ```js
+ * warn('Warning');
+ * ```
+ */
+export function log(messsage) {
+    return console.log(`(${style.grey}Log${style.reset}): [${style.brightBlue}${time()}${style.reset}]: ${messsage}`);
+}
+
+/**
  * @param {string} type
  * The type to log
  * 

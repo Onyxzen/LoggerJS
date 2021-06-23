@@ -3,16 +3,25 @@
 
 # Example
 ```js
+// Deno
+import * as logger from 'https://deno.land/x/loggerjs/mod.ts';
+
+// NodeJS
+import * as logger from '@onyxzen/loggerjs';
+
+// Built-in logger types
 logger.info('Info');
 logger.error('Error');
-logger.warn('Warning')
+logger.warn('Warning');
+logger.log('Log');
 
+// Custom logger maker
 const info = logger.createLogger('Info', 'brightBlue');
 info('test');
 ```
 
 # Features
-1. 3 built-in function
+1. 4 built-in logger type
 2. Custom logger maker
 3. Supports background color and underlines
 4. No `node_modules`
