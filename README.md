@@ -1,6 +1,10 @@
 # LoggerJS
 ☁️ A simple JavaScript logger
 
+# Note
+The NPM version is currently facing some technical issues.\
+Please clone this GitHub repository if you want to use it with NodeJS
+
 # Example
 ```js
 // Deno
