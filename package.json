@@ -1,8 +1,9 @@
 {
-  "name": "loggerjs",
+  "name": "@onyxzen/loggerjs",
   "version": "1.0.0",
   "description": "A simple JavaScript logger",
   "main": "src/index.js",
+  "private": false,
   "type": "module",
   "scripts": {
     "test": "node test/index.js"
