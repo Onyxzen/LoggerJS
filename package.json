@@ -1,0 +1,24 @@
+{
+  "name": "loggerjs",
+  "version": "1.0.0",
+  "description": "A simple JavaScript logger",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onyxzen/LoggerJS.git"
+  },
+  "keywords": [
+    "logger",
+    "js"
+  ],
+  "author": "Onyxzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Onyxzen/LoggerJS/issues"
+  },
+  "homepage": "https://github.com/Onyxzen/LoggerJS#readme"
+}
