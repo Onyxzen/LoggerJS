@@ -17,3 +17,18 @@ info('test');
 3. Supports background color and underlines
 4. No `node_modules`
 3. Deno support
+
+# Package
+1. [NPM](https://www.npmjs.com/package/@onyxzen/loggerjs 'LoggerJS')
+2. [Deno](https://deno.land/x/loggerjs 'LoggerJS')
+
+# Installation
+### NPM
+```sh
+$ npm i @onyxzen/loggerjs
+```
+
+### Deno
+```
+$ deno install https://deno.land/x/loggerjs/mod.ts
+```
